@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-sakura-100 text-gray-800 font-sans min-h-screen;
+    background-image: radial-gradient(
+      circle at center,
+      #fbcfe8 0%,
+      #ff98d2 100%
+    );
+  }
+}
+
+.glass-panel {
+  @apply bg-white/60 backdrop-blur-md border border-white/40 shadow-xl rounded-2xl;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
