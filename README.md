@@ -1,16 +1,49 @@
-# React + Vite
+# FreeAPI: Quotes Listing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, responsive web application that fetches and displays a collection of quotes using the [FreeAPI Quotes endpoint](https://api.freeapi.app/api/v1/public/quotes). 
 
-Currently, two official plugins are available:
+The application is styled with a calming Japanese Sakura (cherry blossom) theme, featuring soft pink tones, a glassmorphism design, and subtle floating animations to create a premium and relaxing user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
+**[View the live deployed application here](https://free-api-quotes-listing-application-iota.vercel.app/)**
 
-## React Compiler
+## Features
+- **Data Fetching:** Seamlessly fetches real-time quotes from the FreeAPI public endpoint.
+- **Sakura Theme:** Custom, soothing pink color palette inspired by cherry blossoms, complete with animated background blobs.
+- **Glassmorphism UI:** Elegant, translucent quote cards with soft hover effects and depth.
+- **Pagination:** Built-in "Discover More" functionality to load additional quotes easily.
+- **Responsive Design:** Fully responsive grid layout that adapts perfectly to desktop, tablet, and mobile devices.
+- **Error & Loading States:** Graceful handling of API loading and potential fetch errors.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- **Frontend Framework:** React (using Vite)
+- **Styling:** Tailwind CSS (with custom theme configuration)
+- **API:** FreeAPI (Quotes Endpoint)
+- **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+## Local Installation Guide
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd "FReeAPI-Quotes Listing Application"
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **View the app:**
+   Open your browser and navigate to the local URL provided in the terminal (typically `http://localhost:5173`).
